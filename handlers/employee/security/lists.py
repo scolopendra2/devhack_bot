@@ -88,3 +88,4 @@ async def check(message: types.Message, state: FSMContext):
                 f'Дата дейтсвия до: {car.date_end}',
                 reply_markup=start_security_kb,
             )
+        await state.finish()

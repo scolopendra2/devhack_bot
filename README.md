@@ -4,6 +4,9 @@
 # Python
 [![Python Version](https://img.shields.io/badge/Python-3.10-blue)](https://www.python.org/downloads/release/python-3100/)
 
+# ER диаграмма БД:
+![ER](ER.png)
+
 # Клонирование репозитория
 git clone https://github.com/scolopendra2/devhack_bot
 
