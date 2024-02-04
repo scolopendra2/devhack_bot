@@ -5,6 +5,8 @@ exclude =
     venv,
     models,
     __init__.py,
+    env.py,
+    migrations,
 
 application-import-names = lyceum
 

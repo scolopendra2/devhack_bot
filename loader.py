@@ -13,8 +13,8 @@ storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
 engine = create_engine(
-    f'mysql+pymysql://{config.MYSQL_USER}:{config.MYSQL_PASSWORD}@'
-    f'{config.MYSQL_HOST}:{config.MYSQL_PORT}/{config.MYSQL_DBNAME}',
+    f"mysql+pymysql://{config.MYSQL_USER}:{config.MYSQL_PASSWORD}@"
+    f"{config.MYSQL_HOST}:{config.MYSQL_PORT}/{config.MYSQL_DBNAME}"
 )
 
 local_session = sessionmaker(autoflush=False, autocommit=False, bind=engine)

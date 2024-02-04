@@ -17,6 +17,7 @@ if __name__ == '__main__':
     from aiogram import executor
     from handlers import dp
     from loader import Base, engine
+    import models
 
     Base.metadata.create_all(engine)
 
